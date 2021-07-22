@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "VehicleSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "VehicleSystemPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/9577489aa3264ecf94142dad1bc2956c"
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor",
+		"Android"
+	],
+	"EngineAssociation": "4.26"
+}
