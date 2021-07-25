@@ -1,5 +1,6 @@
 {
 	"FileVersion": 3,
+	"EngineAssociation": "4.26",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -19,22 +20,27 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/9577489aa3264ecf94142dad1bc2956c"
 		},
 		{
-			"Name": "SteamVR",
-			"Enabled": false
-		},
-		{
-			"Name": "OculusVR",
+			"Name": "CesiumForUnreal",
 			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/87b0d05800a545d49bf858ef3458c4f7",
 			"SupportedTargetPlatforms": [
-				"Win32",
 				"Win64",
+				"Mac",
+				"Linux",
 				"Android"
 			]
+		},
+		{
+			"Name": "SunPosition",
+			"Enabled": true
+		},
+		{
+			"Name": "RenderDocPlugin",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
 		"WindowsNoEditor",
 		"Android"
-	],
-	"EngineAssociation": "4.26"
+	]
 }
