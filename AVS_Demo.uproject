@@ -20,23 +20,21 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/9577489aa3264ecf94142dad1bc2956c"
 		},
 		{
-			"Name": "CesiumForUnreal",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/87b0d05800a545d49bf858ef3458c4f7",
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux",
-				"Android"
-			]
-		},
-		{
 			"Name": "SunPosition",
 			"Enabled": true
 		},
 		{
 			"Name": "RenderDocPlugin",
 			"Enabled": true
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
 		}
 	],
 	"TargetPlatforms": [
